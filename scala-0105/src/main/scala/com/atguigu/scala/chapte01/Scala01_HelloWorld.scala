@@ -13,12 +13,12 @@ package com.atguigu.scala.chapte01
  *         -伴生对象
  *         伴随类产生的一个对象
  *         当我们对源文件进行编译时，默认会生成两个字节码文件，一个是伴生类，另外一个是伴生对象所属类
- *         其实真正的伴生对象是伴生对象所属类中所创建的单例对象
+ *         其实真正的伴生对象是伴生对象所属类中所创建的单例对象,然后通过对象.的方式访问属性或者方法
  *
  *         如果不想默认生成伴生类，可以手动生成，要求伴生类名称和伴生对象名称一致
  *
- *
  *         注意：以后在scala语言中，如果要定义类似java的static内容， 都应该放到伴生对象中声明
+ *
  *
  *
  */
@@ -29,14 +29,13 @@ object Scala01_HelloWorld {
 }
 
 //伴生对象
-object Student {
-  var bzr: String = "xulaoshi"
-
-}
+//object Student {
+//  var bzr: String = "xulaoshi"
+//
+//}
 
 //伴生类
 class Student {
-
   var name: String = _
   var age: Int = _
 }
