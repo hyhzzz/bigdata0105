@@ -1,11 +1,11 @@
-package com.atguigu.scala.chapte02
+package com.atguigu.scala.chapte03
 
 /**
  * @author chujian
  * @create 2021-05-09 19:30
  *         运算符
  */
-object Scala07_Operator {
+object Scala01_Operator {
   def main(args: Array[String]): Unit = {
 
     //算数运算符
