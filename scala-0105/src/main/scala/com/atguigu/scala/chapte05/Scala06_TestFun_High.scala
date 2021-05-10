@@ -44,7 +44,6 @@ object Scala06_TestFun_High {
     //    println(calculator(50, 20, (a, b) => a - b))
     //    println(calculator(50, 20,_-_))
 
-
     //函数可以作为函数返回值返回，使用的是嵌套函数
     def f1(): () => Unit = {
       def f2(): Unit = {
@@ -52,12 +51,11 @@ object Scala06_TestFun_High {
       }
       //将f2作为返回值，返回给f1
       f2 _
-
     }
 
     //ff就是f2
-//    val ff: () => Unit = f1()
-//    ff()
+    //    val ff: () => Unit = f1()
+    //    ff()
 
     f1()()
   }
