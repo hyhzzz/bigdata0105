@@ -6,7 +6,7 @@ package com.atguigu.scala.chapte05
  *
  *         函数至简原则以及匿名函数回顾
  */
-object Scala_05_TestFun_Review {
+object Scala05_TestFun_Review {
   def main(args: Array[String]): Unit = {
 
     //正常定义函数
