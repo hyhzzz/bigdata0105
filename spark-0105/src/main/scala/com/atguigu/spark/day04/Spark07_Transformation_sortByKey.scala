@@ -27,7 +27,6 @@ object Spark07_Transformation_sortByKey {
     //按照key的降序
     //rdd.sortByKey(false).collect().foreach(println)
 
-
     //关闭连接
     sc.stop()
   }
