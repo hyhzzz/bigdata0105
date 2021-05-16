@@ -21,13 +21,13 @@ object SparkSQL01_MySQL {
     import spark.implicits._
 
     //从MySQL数据库中读取数据方式一
-    /* spark.read.format("jdbc")
-       .option("url", "jdbc:mysql://hadoop102:3306/test")
-       .option("driver", "com.mysql.jdbc.Driver")
-       .option("user", "root")
-       .option("password", "123456")
-       .option("dbtable", "*/ user")
-      .load().show
+//     spark.read.format("jdbc")
+    //       .option("url", "jdbc:mysql://hadoop102:3306/test")
+    //       .option("driver", "com.mysql.jdbc.Driver")
+    //       .option("user", "root")
+    //       .option("password", "123456")
+    //       .option("dbtable", "*/ user")
+    //      .load().show
 
     //方式2:通用的load方法读取 参数另一种形式
     /*
